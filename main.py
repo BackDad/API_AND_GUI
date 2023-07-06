@@ -16,7 +16,7 @@ class WeatherWidget(QWidget):
         self.update_button.clicked.connect(self.update_weather)  # Подключение обработчика события клика на кнопку
 
     def update_weather(self):
-        api_key = 'c4cef232ff44c54ea4dc4d2e7f1ff83b'
+        api_key = 'your api key'
         city = 'Voronezh'
 
         # Выполняем запрос к API для получения актуального прогноза погоды
